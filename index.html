@@ -7,21 +7,35 @@
     <title>Eric Kim</title>
 </head>
 <style>
-    embed {
+    body {
+        margin: 0px;
+        background-color: #C4A484;
+    }
+    div {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        height: 100vh;
-        background-color: #C4A484;
     }
-    body {
-        margin-top: 0;
-        margin-bottom: 0;
-        background-color: #C4A484;
+    img {
+        max-width: 600px;
+        display: block;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 </style>
 <body>
-    <embed src="Creative_Resume.pdf" type="application/pdf"/>
+    <div>
+        <button onclick="window.location.href='./Creative_Resume.pdf'">Download PDF</button>
+        <img src="IMG_8083.jpg" alt="Resume">
+    </div>
 </body>
 </html>
