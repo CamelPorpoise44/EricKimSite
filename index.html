@@ -7,12 +7,34 @@
     <title>Eric Kim</title>
 </head>
 <style>
+    .container {
+        width: 40%;
+        height: 40%;
+    }
+    .container embed {
+        max-width: 100%;
+        max-height: 100%;
+        height: 700px;
+    }
+    iframe {
+        width: 50%;
+    }
     embed {
-        width: auto;
-        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 100vh;
+        background-color: #C4A484;
+    }
+    body {
+        margin-top: 0;
+        margin-bottom: 0;
+        background-color: #C4A484;
     }
 </style>
 <body>
     <embed src="Creative_Resume.pdf" type="application/pdf"/>
+    <!-- <iframe src="Creative_Resume.pdf" frameborder="0"></iframe> -->
 </body>
 </html>
